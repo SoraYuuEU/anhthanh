@@ -16,7 +16,6 @@ getgenv().autoPlay = {
 
 getgenv().clockGift = { -- randomly selected from list
     users = {
-"trungkiendz1280",
 "wisdom1704",
 "pkucdz1280",
 "cuongaz1280",
