@@ -1,14 +1,25 @@
 
 local users = {
-"LatrangWlq4P",
+"PhamdiepkpaVL",
+"TruongtuanoWwyk",
+"HoaithuyYRwq4",
+"TruongchiuKszc",
+"NguyenkietqmgP5",
+"Tranchio6Bbt",
+"Buiminh24tuM",
+"VocanhFu5hD",
+"Daidiep9iK7d",
+"PhamsonoXMjk",
+"HuynhdinhhS9eC",
+"DoanphuongziysX",
+"HoaikhanhALtxf",
+"Dinhsang2dt9Q",
+"NgohueMgOdw",
 
 }
 
 local troopsToSend = {
     "SantaTVMan",
-    "LuckySpeakerman",
-    "ClockSpider",
-    "GuardianClockman",
 }
 
 
