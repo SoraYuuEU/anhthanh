@@ -19,6 +19,12 @@ getgenv().clockGift = { -- randomly selected from list
 "trungkiendz1280",
 "wisdom1704",
 "pkucdz1280",
+"cuongaz1280",
+"cuongaa1280",
+"cuongv1280",
+"cuongvv1280",
+"tuyenvuto",
+"cuonga1280",
     }
 }
 
@@ -41,8 +47,8 @@ getgenv().autoBoost = { -- this will use boosts when it runs out
 getgenv().autoMail = {
     enabled = false,         -- for gems
     sendTroopsEnabled = false,
-    idToSendTo = 5456155083, -- for gems
-    idToSendTo2 = 5456155083,        -- this is for troops
+    idToSendTo = 5456140552, -- for gems
+    idToSendTo2 = 5456140552,        -- this is for troops
     sendGemsAfterReached = 1000,
     sendOfRarity = {
         ["Legendary"] = true,
