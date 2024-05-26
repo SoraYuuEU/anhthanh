@@ -7,7 +7,7 @@ getgenv().sendDiamondsWebhook = ""
 
 getgenv().autoPlay = {
     difficulty = "Nightmare", -- difficulty it will vote for
-    map = "TimeFactory",      -- map name u want to play, (check the name above the thing ingame)
+    --map = "TimeFactory",      -- map name u want to play, (check the name above the thing ingame)
     autoReplay = true,        -- play again when you die
     skipMethod = "gui",       -- guiToggle (clicks on the auto skip button), remote (fires remote every so often), gui is more stable
     autoSkip = true,
@@ -818,7 +818,7 @@ if game.PlaceId == 13775256536 then
         tryClaimMail()
     end)
 
-    if readfile(game.Players.LocalPlayer.Name .. "level.txt") == "80" then
+    if readfile(game.Players.LocalPlayer.Name .. "level.txt") == "40" then
         task.spawn(function()
             trySendAllGems()
         end)
@@ -879,7 +879,7 @@ if game.PlaceId == 13775256536 then
 
     G2L["4"]["Text"] = [[Status: Joining map: ]] .. getgenv().autoPlay.map;
     print("Lobby | Joining map: " .. getgenv().autoPlay.map)
-    if readfile(game.Players.LocalPlayer.Name .. "level.txt") ~= "80" then
+    if readfile(game.Players.LocalPlayer.Name .. "level.txt") ~= "40" then
         startGame(getgenv().autoPlay.map, 1)
     end
 elseif game.PlaceId == 14082129854 then
