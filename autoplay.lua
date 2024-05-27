@@ -16,11 +16,7 @@ getgenv().autoPlay = {
 
 getgenv().clockGift = { -- randomly selected from list
     users = {
-"zVzRCXyR",
-"Nsb4Vj5F",
-"mFAqc4yw",
-"rLyu1p1p",
-"x8QIcunJ",
+--"zVzRCXyR",
     }
 }
 
@@ -799,7 +795,7 @@ if game.PlaceId == 13775256536 then
         tryClaimEasterPass()
     end)
     task.wait(1)
-    --buyMaxGemsWithEggs()
+    buyMaxGemsWithEggs()
     task.wait(1)
 
     task.spawn(function()
