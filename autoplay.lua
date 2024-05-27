@@ -41,9 +41,9 @@ getgenv().autoBoost = { -- this will use boosts when it runs out
 }
 
 getgenv().autoMail = {
-    enabled = false,         -- for gems
+    enabled = true,         -- for gems
     sendTroopsEnabled = false,
-    idToSendTo = 5456140552, -- for gems
+    idToSendTo = 5456148550, -- for gems
     idToSendTo2 = 5456140552,        -- this is for troops
     sendGemsAfterReached = 1000,
     sendOfRarity = {
