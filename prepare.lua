@@ -30,7 +30,7 @@ getgenv().clockGift = { -- randomly selected from list
 getgenv().autoEasterPass = {
     enabled = true,
     goToLobbyAfterReachedEggs = 3000, -- go back to lobby once you get this amt of eggs
-    convertEggsToGems = false,
+    convertEggsToGems = true,
     claimClockQuests = true,
 }
 
@@ -53,7 +53,7 @@ getgenv().autoMail = {
         ["Basic"] = false,
         ["Epic"] = false,
         ["Mythic"] = true,
-        ["Uncommon"] = false,
+        ["Uncommon"] = true,
         ["Rare"] = false,
         ["Exclusive"] = true,
         ["Godly"] = true
